@@ -5,12 +5,12 @@ import { collection, addDoc, getDocs } from "@firebase/firestore"; // Perbarui i
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB-lfUt1adpQ0KYcFFW_oAWTJVfHDOOZy8",
-  authDomain: "portofolio-web-3e8e8.firebaseapp.com",
-  projectId: "portofolio-web-3e8e8",
-  storageBucket: "portofolio-web-3e8e8.appspot.com",
-  messagingSenderId: "25195509306",
-  appId: "1:25195509306:web:2b635dcf997137bf612703"
+  apiKey: "AIzaSyCLwkeKy_rztiSJ7Y5rxVp-22zClxGooqc",
+  authDomain: "my-portfolio-fe5d4.firebaseapp.com",
+  projectId: "my-portfolio-fe5d4",
+  storageBucket: "my-portfolio-fe5d4.firebasestorage.app",
+  messagingSenderId: "1027257210406",
+  appId: "1:1027257210406:web:aaa0760f285d027ddf78e7"
 };
 
 // Initialize Firebase

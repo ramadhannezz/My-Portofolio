@@ -140,14 +140,18 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
                                 accept="image/*"
                                 className="hidden"
                             />
-                            <button
-                                type="button"
-                                onClick={() => fileInputRef.current?.click()}
-                                className="w-full flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-indigo-500/20 text-indigo-400 hover:bg-indigo-500/30 transition-all border border-dashed border-indigo-500/50 hover:border-indigo-500 group"
-                            >
-                                <ImagePlus className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                                <span>Choose Profile Photo</span>
-                            </button>
+<button
+    type="button"
+    onClick={() => fileInputRef.current?.click()}
+    disabled={true} // Menonaktifkan tombol
+    className="w-full flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-indigo-500/20 text-indigo-400 
+               border border-dashed border-indigo-500/50 transition-all 
+               cursor-not-allowed opacity-50" // Gaya tombol nonaktif
+>
+    <ImagePlus className="w-5 h-5 transition-transform" />
+    <span>Choose Profile Photo</span>
+</button>
+
                             <p className="text-center text-gray-400 text-sm mt-2">
                                 Max file size: 5MB
                             </p>
