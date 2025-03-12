@@ -184,7 +184,7 @@ const Home = () => {
                 <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                   data-aos="fade-up"
                   data-aos-delay="1000">
-                  Menjadi sumber inspirasi dan edukasi bagi UMKM dan Semua orang dalam memahami dan memanfaatkan teknologi digital untuk pertumbuhan bisnis dan karier.
+                  Menjadi sumber inspirasi dan edukasi bagi UMKM dan Semua orang dalam memahami serta memanfaatkan teknologi digital untuk pertumbuhan bisnis dan karier.
                 </p>
 
                 {/* Tech Stack */}
